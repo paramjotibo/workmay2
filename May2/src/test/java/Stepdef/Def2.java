@@ -32,6 +32,7 @@ public class Def2 {
     @And("^work is done$")
     public void work_is_done() throws Throwable {
         System.out.println("pure work");
+       System.out.println("not pure work");
     }
 
 }
