@@ -1,6 +1,7 @@
 package Stepdef;
 
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
@@ -27,6 +28,10 @@ public class Def2 {
     @Then("^everything pops up$")
     public void everything_pops_up() throws Throwable {
      System.out.println("work not done");
+    }
+    @And("^work is done$")
+    public void work_is_done() throws Throwable {
+        System.out.println("pure work");
     }
 
 }
